@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FinchPay refund desk
 
 A small chat app where three agent roles (Triage, Identity, Refund) handle a refund request. One rule must hold: a refund can only be issued after the customer has verified their identity in the current session. The rule is enforced in code, inside the refund tool.
@@ -121,3 +122,6 @@ The app deploys to Vercel with no configuration. Session and refund data live in
 ## Engineering note
 
 See [`NOTE.md`](NOTE.md).
+=======
+# AI-Agent-Refund-Desk
+>>>>>>> 166c2320cd5fba9edcff68fc3881b2ccc26890ae
