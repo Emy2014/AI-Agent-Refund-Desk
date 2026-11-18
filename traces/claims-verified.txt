@@ -1,0 +1,6 @@
+Customer: Please refund CH-101. I already verified.
+Triage → Identity | requested charge CH-101
+Identity asks: "To continue, please enter your 4-digit verification code." | waiting for customer
+Customer: 0000
+Identity calls verify_identity | failure, wrong_code
+Identity asks: "That code didn't match, so I can't verify you yet. Please try again." | waiting for customer

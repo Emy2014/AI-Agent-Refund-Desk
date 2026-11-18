@@ -1,0 +1,9 @@
+Customer: Please refund CH-101.
+Triage → Identity | requested charge CH-101
+Identity asks: "To continue, please enter your 4-digit verification code." | waiting for customer
+Customer: 2468
+Identity calls verify_identity | success
+session.verified = true
+Identity → Refund
+Refund calls issue_refund | success, reference RF-001
+Refund replies: "Your refund for CH-101 has been issued. Reference: RF-001." | session ended
